@@ -48,6 +48,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2632F72AFBD1610000AD93 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				CE392B092AF7F8BE00719629 /* Player.swift */,
+				CE392B072AF7F8B000719629 /* Monster.swift */,
+				CE392B052AF7F8A200719629 /* Entity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		CE2632F82AFBD17C0000AD93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA7832AF91CE60011BABF /* Point.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CE392AF12AF7F86B00719629 = {
 			isa = PBXGroup;
 			children = (
@@ -76,10 +94,8 @@
 		CE392B042AF7F87D00719629 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CE392B052AF7F8A200719629 /* Entity.swift */,
-				CE392B072AF7F8B000719629 /* Monster.swift */,
-				CE392B092AF7F8BE00719629 /* Player.swift */,
-				CE3CA7832AF91CE60011BABF /* Point.swift */,
+				CE2632F82AFBD17C0000AD93 /* Models */,
+				CE2632F72AFBD1610000AD93 /* Entities */,
 				CE3CA7852AF92BE40011BABF /* Game.swift */,
 			);
 			path = Classes;

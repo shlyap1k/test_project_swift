@@ -28,7 +28,7 @@ class Game {
     func printEntities() -> Void {
         print(player)
         for (index, monster) in monsters.enumerated() {
-            print("№\(index) \(monster!)")
+            print("№\(index+1) \(monster!)")
         }
     }
     
