@@ -8,7 +8,7 @@
 import Foundation
 
 
-class Point: CustomStringConvertible {
+struct Point: CustomStringConvertible {
     var x: Double
     var y: Double
     var description: String {
@@ -19,7 +19,7 @@ class Point: CustomStringConvertible {
         self.y = y
     }
     
-    func move(dx: Double, dy: Double) -> Void {
+    mutating func move(dx: Double, dy: Double) -> Void {
         x += dx
         y += dy
     }

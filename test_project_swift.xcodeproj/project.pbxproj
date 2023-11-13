@@ -85,20 +85,12 @@
 		CE392AFC2AF7F86B00719629 /* test_project_swift */ = {
 			isa = PBXGroup;
 			children = (
-				CE392B042AF7F87D00719629 /* Classes */,
 				CE392AFD2AF7F86B00719629 /* main.swift */,
+				CE3CA7852AF92BE40011BABF /* Game.swift */,
+				CE2632F72AFBD1610000AD93 /* Entities */,
+				CE2632F82AFBD17C0000AD93 /* Models */,
 			);
 			path = test_project_swift;
-			sourceTree = "<group>";
-		};
-		CE392B042AF7F87D00719629 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CE2632F82AFBD17C0000AD93 /* Models */,
-				CE2632F72AFBD1610000AD93 /* Entities */,
-				CE3CA7852AF92BE40011BABF /* Game.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
